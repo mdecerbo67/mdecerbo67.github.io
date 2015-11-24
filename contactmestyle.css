@@ -1,10 +1,12 @@
-p{
+#email{
   text-color:blue;
+  text-shadow: 2px 2px white;
 }
 #contactme{
   text-align: center;
   font-size: 42px;
   text-shadow: 2px 2px white;
+  text-color:blue;
 }
 body{
 background-image: url("http://img06.deviantart.net/9591/i/2010/039/d/3/wooden_planks_new_01_by_goodtextures.jpg");
@@ -14,13 +16,14 @@ background-size: cover;
   margin-top: 60px;
   text-align: center;
   font-size: 60px;
+}
 a:link{
 text-decoration: none;
-color:black;
+color:blue;
 }
 a:visited{
   text-decoration: none;
-  color:black;
+  color:blue;
 }
 a:hover{
   text-decoration: none;
