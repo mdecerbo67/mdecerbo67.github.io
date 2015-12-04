@@ -6,7 +6,7 @@
 </head>
 <body>
   <div id="name_bar">
-    <h1 id="name">Contact Page</h1>
+    <h1 id="name"></h1>
   </div>
   <div id="nav_bar">
 <table>
@@ -15,15 +15,16 @@
       <a href="music.html">Music |</a>
       <a href="contactme.html">Contact Me</a>
           </div>
-<p id="contactme">
-  Contact me at these below:
-</p>
-<p id="email">
-  email:  mdecerbo67@gmail.com
-<p>
-<p id="email">
-  Twitter:  https://twitter.com/DecerboMatt
-</p>
+  <form id="contactbody" action="mailto:mdecerbo67@gmail.com" enctype="text/plain" method="post">
+      <p>Name:   <input name="Name" type="text" id="Name" size="40"></p>
+      <p>E-mail:   <input name="E-mail" type="text" id="E-mail" size="40"></p>
+      <p>Message</p>
+      <p><textarea name="Comment" cols="75" rows="7"
+      id="Comment"></textarea></p>
+      <p><input type="submit" name="Submit" value="Submit"></p>
+</form>
+<a class="social" href="https://twitter.com/DecerboMatt">
+<img class="social" src="http://www.azrielifoundation.org/wp-content/uploads/twitter-logo.png">
 
     </body>
 </html>
