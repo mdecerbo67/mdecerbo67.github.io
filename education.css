@@ -29,3 +29,32 @@ a:active{
 color:blue;
 
 }
+
+#ed{
+  text-align:right;
+}
+
+
+p{
+  font-style: oblique;
+  font-family:monospace;
+  color:white;
+  font-size:32px;
+  text-decoration: inherit;
+  text-shadow: 1px 1px black;
+}
+#name{
+  font-size: 6em;
+  color:white;
+  text-align: center;
+  vertical-align: bottom;
+  text-shadow: 3px 3px black;
+}
+#name_bar{
+  margin:-10px;
+  margin-top:-30px;
+  padding:0px;
+
+  height:8em;
+  width:101.5%;
+}
