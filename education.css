@@ -1,0 +1,31 @@
+
+
+#matthewdecerbo{
+  font-size: 30px;
+}
+body{
+background-image: url("http://colonialflowers.net/wp-content/uploads/2013/04/wood-background.png");
+background-size: cover;
+}
+#nav_bar{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 60px;
+}
+a:link{
+text-decoration: none;
+color:blue;
+}
+a:visited{
+  text-decoration: none;
+  color:blue;
+}
+a:hover{
+  text-decoration: none;
+  color:teal;
+}
+a:active{
+  text-decoration: none;
+color:blue;
+
+}
