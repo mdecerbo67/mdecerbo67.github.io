@@ -1,5 +1,7 @@
-
-
+#schools{
+  text-align: center;
+  font-size: 4em;
+}
 #matthewdecerbo{
   font-size: 30px;
 }
@@ -57,4 +59,7 @@ p{
 
   height:8em;
   width:101.5%;
+}
+li{
+  list-style-type: none;
 }
